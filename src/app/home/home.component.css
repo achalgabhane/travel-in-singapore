@@ -1,0 +1,20 @@
+.carousel-item img {
+    height: 500px;
+}
+.card{
+   height: 400px;
+}
+.card img{
+    height: 400px;
+    width: 300px;
+}
+.a,h5{
+    height: 50px;
+    width: 200px;
+}
+.row{
+    box-shadow: 2px 2px 5px   gray;
+}
+.carousel-inner{
+    box-shadow:1px 1px 10px 2px gray;
+}
