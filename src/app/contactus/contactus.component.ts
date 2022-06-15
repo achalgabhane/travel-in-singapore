@@ -2,19 +2,26 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contactus',
-  templateUrl: './contactus.component.html',
+  templateUrl:'./contactus.component.html',
   styleUrls: ['./contactus.component.css']
 })
-export class ContactusComponent implements OnInit {
+export class ContactUsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {  }
+  
+  ngOnInit(): void { }
+  private _userName: string = '';
 
-  ngOnInit(): void {
+// getter method: to to get value from database
+  get userName(): string {
+    return this._userName;
   }
-  myName: string = 'Ritesh';
-
-  myFuction(): void{
-    alert("Hello " + this.myName);
+// setter method:to save/set value to database
+  set userName(val: string) {
+    this._userName = val;
   }
 
+  
+  userEmail:string = '';
+  userMob:number = NaN;
 }

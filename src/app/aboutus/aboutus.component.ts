@@ -5,22 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './aboutus.component.html',
   styleUrls: ['./aboutus.component.css']
 })
-export class AboutusComponent implements OnInit {
+export class AboutUsComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  forDiv():void{
-    alert('Div clicked');
+  
   }
 
-  forBtn():void{
-    alert('Btn clicked');
-  }
-
-  forInt(age:any){
-    console.log(age);   
-  }
-}
